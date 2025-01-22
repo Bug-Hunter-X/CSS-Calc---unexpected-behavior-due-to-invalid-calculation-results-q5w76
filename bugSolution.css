@@ -1,0 +1,8 @@
+/* bugSolution.css */
+
+#element {
+  width: calc(min(100% - 10px, 500px)); /* Use min() to ensure width is not negative */
+  height: calc(max(0, 100% - 20px)); /* Use max() to prevent negative height */
+}
+
+/*Add media queries or other logic to handle various scenarios based on screen sizes or other context.*/
